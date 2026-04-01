@@ -1,19 +1,21 @@
 # Arabic Customer Review Analysis Tool
 
-A Python project for scraping and analyzing Arabic customer reviews from e-commerce platforms (Amazon, Jumia, Noon).
+A Python project for scraping and analyzing Arabic customer reviews from e-commerce platforms (Amazon, Jumia, Noon), with an interactive dashboard using Streamlit.
 
 ## Files
-- `review_analysis.py` → Analyzes all customer reviews and generates basic statistics
-- `sentiment_analysis.py` → Performs sentiment analysis (positive/negative)
-- `scraping_tool.py` → Scrapes reviews from websites
-- `dashboard_generator.py` → Generates visual dashboards using Power BI
+
+- `scraper.py` → Core code: handles web scraping, data collection, and preprocessing
+- `main2.py` → Streamlit interface: generates AI analysis, dashboards, and reports
 
 ## Features
-- Sentiment Analysis
-- Detect recurring customer complaints
+
+- Scrape customer reviews from multiple e-commerce platforms
+- Sentiment Analysis (positive / negative)
+- Identify common customer complaints
 - Generate actionable business insights
-- Arabic user interface
+- Interactive dashboard with Streamlit
+- AI-powered analysis of customer feedback
 
 ## Technologies Used
-Python, NLP, Web Scraping, Excel, Power BI# Arabic-Customer-Review-Analysis
-Arabic customer review analysis tool with Python, NLP, and Power BI dashboards
+
+Python, Streamlit, NLP, Web Scraping, Excel, Power BI
